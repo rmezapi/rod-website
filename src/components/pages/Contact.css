@@ -1,0 +1,48 @@
+.all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+
+.contact{
+    color: #242424;
+    align-items: flex-start;
+    font-size: x-large;
+    max-height: 2rem;
+    margin-top: 3rem;
+}
+
+.container{
+    align-content: top;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+}
+
+.info{
+    display: flex;
+    flex-direction: col;
+    text-align: center;
+    margin: 2rem;
+}
+
+.icon{
+    padding-top: .5rem;
+}
+
+.text{
+    text-decoration: none;
+    color: #242424;
+    margin-left: 2rem;
+
+}
+
+.btn2{
+    display: flex;
+    flex-direction: row;
+    max-height: 50px;
+    min-width: 200px;
+}

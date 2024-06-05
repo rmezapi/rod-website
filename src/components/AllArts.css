@@ -1,0 +1,91 @@
+.big-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.small-container {
+    min-height: 1000px;
+    min-width: 33%;
+    text-align: center;
+
+}
+
+.digital {
+    background-image: image-set('../../public/images/tents.png');
+    background-attachment: fixed;
+    align-items: flex-start;
+    width: 33.3%;
+    text-align: center;
+    min-height: 600px;
+    padding-top: 200px;
+}
+
+.film {
+    background-image: image-set('../../public/images/film_sample.png');
+    /* background-attachment: fixed; */
+    align-items: center;
+    width: 33.4%;
+    text-align: center;
+    height: fit-content;
+    min-height: 600px;
+    padding-top: 200px;
+    text-decoration: none;
+}
+
+.printmaking {
+    background-image: image-set('../../public/images/print_sample.png');
+    background-attachment: fixed;
+    align-items: flex-end;
+    width: 33.3%;
+    text-align: center;
+    min-height: 600px;
+    padding-top: 200px;
+}
+
+.butn {
+    background-color: transparent;
+    color: #242424;
+    border-color: transparent;
+    text-decoration: none;
+}
+
+.butn:hover {
+    color: #242424;
+    background-color: transparent;
+    border-color: transparent;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 960px) and (min-width: 500px) {
+    .big-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+    .digital {
+        background-color: aliceblue;
+        align-items: flex-start;
+        min-height: 300px;
+        width: 100%;
+        padding-top: 50px;
+    }
+    
+    .film {
+        background-color: beige;
+        align-items: center;
+        min-height: 300px;
+        width: 100%;
+        padding-top: 50px;
+    }
+    
+    .printmaking {
+        background-color: cadetblue;
+        align-items: flex-end;
+        min-height: 300px;
+        width: 100%;
+        padding-top: 50px;
+    }
+}

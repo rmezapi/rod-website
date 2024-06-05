@@ -1,8 +1,11 @@
 import React from 'react'
+import AllArts from '../AllArts'
 
 function Arts() {
   return (
-    <div>Arts</div>
+    <div>
+      <AllArts />
+    </div>
   )
 }
 

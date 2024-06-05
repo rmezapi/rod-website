@@ -25,6 +25,15 @@
     border-radius: 3px;
 }
 
+.btn--none {
+    background-color: transparent;
+    color: #242424;
+    padding: 8px 20px;
+    border: none;
+    transition: all 0.3s ease-out;
+    border-radius: 3px;
+}
+
 .btn--medium {
     padding: 8px 20px;
     font-size: 20px;
@@ -37,7 +46,8 @@
 
 /* hovers */
 .btn--medium:hover, .btn--large:hover {
-    background-color: white;
-    color: #242424;
-    transition: all 0.3s ease-out;
+    background-color: transparent ;
+    text-decoration: double;
+    border: #242424 solid 2px;
+
 }
