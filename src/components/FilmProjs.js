@@ -1,5 +1,5 @@
 import React from 'react'
-import './ArtProjs.css'
+import './FilmProjs.css'
 import { Button } from './Button'
 import { Link } from 'react-router-dom'
 
@@ -12,24 +12,24 @@ function FilmProjs() {
         <div className='row'>
             <div className='c1-1'>
                 <Button buttonSize={buttonSize} buttonStyle={buttonStyle}  >
-                    <Link to='./{proj_name}' className='btnn'>
-                        <h2>Project Name</h2>
+                    <Link to='./biking' className='btnn'>
+                        <h2>Biking Adventures</h2>
                     </Link>
                         
                 </Button>
             </div>
             <div className='c1-2'>
                 <Button buttonSize={buttonSize} buttonStyle={buttonStyle}  >
-                    <Link to='./{proj_name}' className='btnn'>
-                        <h2>Project Name</h2>
+                    <Link to='./bouldering' className='btnn'>
+                        <h2>Bouldering</h2>
                     </Link>
                         
                 </Button>
             </div>
             <div className='c1-3'>
                 <Button buttonSize={buttonSize} buttonStyle={buttonStyle}  >
-                    <Link to='./{proj_name}' className='btnn'>
-                        <h2>Project Name</h2>
+                    <Link to='./mtb' className='btnn'>
+                        <h2>Mountain Biking</h2>
                     </Link>
                         
                 </Button>
@@ -38,24 +38,24 @@ function FilmProjs() {
         <div className='row'>
         <div className='c2-1'>
                 <Button buttonSize={buttonSize} buttonStyle={buttonStyle}  >
-                    <Link to='./{proj_name}' className='btnn'>
-                        <h2>Project Name</h2>
+                    <Link to='./road-cycling' className='btnn'>
+                        <h2>Road Cycling</h2>
                     </Link>
                         
                 </Button>
             </div>
             <div className='c2-2'>
                 <Button buttonSize={buttonSize} buttonStyle={buttonStyle}  >
-                    <Link to='./{proj_name}' className='btnn'>
-                        <h2>Project Name</h2>
+                    <Link to='./st-simon' className='btnn'>
+                        <h2>Saint Simon's Island Trip</h2>
                     </Link>
                         
                 </Button>
             </div>
             <div className='c2-3'>
                 <Button buttonSize={buttonSize} buttonStyle={buttonStyle}  >
-                    <Link to='./{proj_name}' className='btnn'>
-                        <h2>Project Name</h2>
+                    <Link to='./friends' className='btnn'>
+                        <h2>Friends</h2>
                     </Link>
                         
                 </Button>

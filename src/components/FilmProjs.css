@@ -7,7 +7,7 @@
 
 
 .c1-1{
-    background-image: image-set('../../public/images/tents.png');
+    background-image: image-set('https://res.cloudinary.com/dxewrioco/image/upload/v1717800094/rod-website-images/digital/climbing/ronp6q4yzuvxktodvoqi.png');
     min-width: 33.3%;
     min-height: 300px;
     align-items: flex-start;
@@ -55,6 +55,31 @@
     background-color: aquamarine;
     text-align: center;
 }
+
+/* .c3-1{
+    background-image: image-set('../../public/images/print_sample.png');
+    min-width: 33.3%;
+    min-height: 300px;
+    align-items: flex-start;
+    background-color: aliceblue;
+    text-align: center;
+}
+.c3-2{
+    background-image: image-set('../../public/images/tents.png');
+    min-width: 33.4%;
+    min-height: 300px;
+    align-items: center;
+    background-color: honeydew;
+    text-align: center;
+}
+.c3-3{
+    background-image: image-set('../../public/images/film_sample.png');
+    min-width: 33.3%;
+    min-height: 300px;
+    align-items: flex-end;
+    background-color: aquamarine;
+    text-align: center;
+} */
 
 .btnn{
     color: #242424;
@@ -120,4 +145,26 @@
         background-color: aquamarine;
         text-align: center;
     }
+    /* .c3-1{
+        min-width: 100%;
+        min-height: 300px;
+        align-items: flex-start;
+        background-color: aliceblue;
+        text-align: center;
+    }
+    .c3-2{
+        min-width: 100%;
+        min-height: 300px;
+        align-items: center;
+        background-color: honeydew;
+        text-align: center;
+    }
+    .c3-3{
+        min-width: 100%;
+        min-height: 300px;
+        align-items: flex-end;
+        background-color: aquamarine;
+        text-align: center;
+    } */
+
 }

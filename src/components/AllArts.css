@@ -12,20 +12,20 @@
 }
 
 .digital {
-    background-image: image-set('../../public/images/tents.png');
+    background-image: image-set('../../public/images/others/tents.png');
     background-attachment: fixed;
     align-items: flex-start;
-    width: 33.3%;
+    width: 50%; /* 33.3%;*/
     text-align: center;
     min-height: 600px;
     padding-top: 200px;
 }
 
 .film {
-    background-image: image-set('../../public/images/film_sample.png');
+    background-image: image-set('../../public/images/others/dropped.png');
     /* background-attachment: fixed; */
     align-items: center;
-    width: 33.4%;
+    width: 50%; /* 33.4%; */
     text-align: center;
     height: fit-content;
     min-height: 600px;
@@ -33,7 +33,7 @@
     text-decoration: none;
 }
 
-.printmaking {
+/* .printmaking {
     background-image: image-set('../../public/images/print_sample.png');
     background-attachment: fixed;
     align-items: flex-end;
@@ -41,7 +41,7 @@
     text-align: center;
     min-height: 600px;
     padding-top: 200px;
-}
+} */
 
 .butn {
     background-color: transparent;

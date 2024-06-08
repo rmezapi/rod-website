@@ -26,14 +26,14 @@ function AllArts() {
                 </Link>
             </Button>
         </div>
-        {/* printmaking */}
+        {/* printmaking
         <div className='small-container, printmaking'>
             <Button buttonSize={buttonSize} buttonStyle={buttonStyle} >
                 <Link to='./film' className='butn' >
                     <h2> Printmaking </h2>
                 </Link>
             </Button>
-        </div>
+        </div> */}
     </div>
   )
 }
