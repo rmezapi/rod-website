@@ -19,7 +19,14 @@ function Kt() {
     const handleMoveNext = () => setIndex(nextIndex);
 
   return (
-    <div>
+    <>
+    <div className='text-container'>
+      <h1> kt. </h1>
+      <p>
+      'kt' is a collection of portraits of Katie. In this collection of photographs, I hope to capture kt’s beauty, talent, passion, joy, and some of the little things that remind me of kt. She is one full of surprises and so much love to give. A talented ballerina with an immense passion for dance. A friend, companion and jokester. This collection is just a glimpse of kt, as capturing it all deemed too impossible a task.
+      </p>
+    </div>
+    <div className='gallery'>
         <Gallery
         images={images}
         onClick={handleClick}
@@ -41,6 +48,7 @@ function Kt() {
         />
       )}
     </div>
+    </>
   )
 }
 

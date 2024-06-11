@@ -19,7 +19,15 @@ function Night() {
     const handleMoveNext = () => setIndex(nextIndex);
 
   return (
-    <div>
+    <>
+    <div className='text-container'>
+      <h1> 3 friends, a bike, lights and a kimono </h1>
+      <h3> 2023 </h3>
+      <p>
+      '3 friends, a bike, lights and a kimono' is a series of photographs that depict the outcome of giving 3 friends, a bike, lights, a kimono, and a camera. The photographs all use long exposure to create 'cool' lighting patterns with LED lights mounted on the rear wheel of a bike. As we experimented more and more with the lights on the bike wheel, numerous ideas came to us. These are just some of the ideas we had, but I believe they show the vast range in the variety of different photographs that can be taken when you give 3 friends, a bike, lights and a kimono.
+      </p>
+    </div>
+    <div className='gallery'>
         <Gallery
         images={images}
         onClick={handleClick}
@@ -41,6 +49,7 @@ function Night() {
         />
       )}
     </div>
+    </>
   )
 }
 

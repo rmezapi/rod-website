@@ -19,7 +19,16 @@ function FilmFriends() {
     const handleMoveNext = () => setIndex(nextIndex);
 
   return (
-    <div>
+    <>
+    <div className='text-container'>
+      <h1> Friends! </h1>
+      <h3> Always </h3>
+      {/* <p>
+        Text here?
+      </p> */}
+      
+    </div>
+    <div className='gallery'>
         <Gallery
         images={images}
         onClick={handleClick}
@@ -41,6 +50,7 @@ function FilmFriends() {
         />
       )}
     </div>
+    </>
   )
 }
 

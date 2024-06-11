@@ -6,8 +6,12 @@ image {
     z-index: -1;
 }
 
+.about-me {
+    margin-bottom: 2rem;
+}
+
 .bio-container {
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     display: flex;
     justify-content: start;
     align-items: left;
@@ -17,13 +21,18 @@ image {
 }
 
 .text-container {
-    background-color: beige;
+    /* background-color: beige; */
+    width: 100%;
+}
+
+hr.solidd{
+    border-top: 1px solid #bbb;
     width: 100%;
 }
 
 .profile-photo {
     height: 300px;
-    width: 300px;
+    /* width: 300px; */
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -34,7 +43,7 @@ image {
 
 .cv-container {
     display: flex;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     flex-direction: column;
     align-items: center;
     max-height: 800px;

@@ -19,7 +19,16 @@ function DigitalClimbing() {
     const handleMoveNext = () => setIndex(nextIndex);
 
   return (
-    <div>
+    <>
+    <div className='text-container'>
+      <h1> Climbing adventures! </h1>
+      <h3> Always </h3>
+      <p>
+        These collection consists of images I take during the many misc. climbing adventures I go on with my friends and family.
+      </p>
+      
+    </div>
+    <div className='gallery'>
         <Gallery
         images={images}
         onClick={handleClick}
@@ -41,6 +50,7 @@ function DigitalClimbing() {
         />
       )}
     </div>
+    </>
   )
 }
 

@@ -19,7 +19,15 @@ function SaintSimon() {
     const handleMoveNext = () => setIndex(nextIndex);
 
   return (
-    <div>
+    <>
+    <div className='text-container'>
+      <h1> A Trip to St. Simon's Island, GA</h1>
+      <h3> April 2024 </h3>
+      {/* <p>
+        These are some of the film images I took on my trip to St. Simon Island with Kt.
+      </p> */}
+    </div>
+    <div className='gallery'>
         <Gallery
         images={images}
         onClick={handleClick}
@@ -41,6 +49,7 @@ function SaintSimon() {
         />
       )}
     </div>
+    </>
   )
 }
 

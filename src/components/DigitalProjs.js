@@ -52,7 +52,7 @@ function DigitalProjs() {
             <div className='d2-2'>
                 <Button buttonSize={buttonSize} buttonStyle={buttonStyle}  >
                     <Link to='./in-conversation' className='btnn'>
-                        <h2>In Conversation w ___</h2>
+                        <h2>The Town: In Conversation with Daniel Shea</h2>
                     </Link>
                         
                 </Button>
@@ -86,7 +86,7 @@ function DigitalProjs() {
                 <div className='d3-3'>
                     <Button buttonSize={buttonSize} buttonStyle={buttonStyle}  >
                         <Link to='./night' className='btnn'>
-                            <h2>Night</h2>
+                            <h2>3 friends, a bike, lights and a kimono</h2>
                         </Link>
                             
                     </Button>

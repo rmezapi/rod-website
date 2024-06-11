@@ -19,7 +19,16 @@ function FilmBiking() {
     const handleMoveNext = () => setIndex(nextIndex);
 
   return (
-    <div>
+    <>
+    <div className='text-container'>
+      <h1> Biking adventures! </h1>
+      <h3> Always </h3>
+      <p>
+        These collection consists of images I take during the many misc. biking adventures I go on with my friends and family.
+      </p>
+      
+    </div>
+    <div className='gallery'>
         <Gallery
         images={images}
         onClick={handleClick}
@@ -41,6 +50,7 @@ function FilmBiking() {
         />
       )}
     </div>
+    </>
   )
 }
 
