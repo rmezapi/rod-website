@@ -12,33 +12,36 @@ function DigitalProjs() {
         <div>
         <div className='row'>
             {/* climbing */}
-            <div className='c1-1'>
+            <div className='d1-1'>
                 <Button buttonSize={buttonSize} buttonStyle={buttonStyle}  >
                     <Link to='./climbing' className='btnn'>
-                        <h2> CLimbing </h2>
+                        <h2> Climbing </h2>
                     </Link>
                         
                 </Button>
             </div>
-            <div className='c1-2'>
+            {/* biking adventures */}
+            <div className='d1-2'>
                 <Button buttonSize={buttonSize} buttonStyle={buttonStyle}  >
-                    <Link to='./biking-adventures}' className='btnn'>
+                    <Link to='./biking-adventures' className='btnn'>
                         <h2>Biking Adventures</h2>
                     </Link>
                         
                 </Button>
             </div>
-            <div className='c1-3'>
-                <Button buttonSize={buttonSize} buttonStyle={buttonStyle}  >
-                    <Link to='./friends' className='btnn'>
-                        <h2>Friends</h2>
-                    </Link>
-                        
-                </Button>
-            </div>
+            {/* yosemite valley theme park */}
+            <div className='d1-3'>
+                    <Button buttonSize={buttonSize} buttonStyle={buttonStyle}  >
+                        <Link to='./yosemite' className='btnn'>
+                            <h2>Yosemite Valley Theme Park</h2>
+                        </Link>
+                            
+                    </Button>
+                </div>
         </div>
         <div className='row'>
-        <div className='c2-1'>
+        {/* graduation */}
+        <div className='d2-1'>
                 <Button buttonSize={buttonSize} buttonStyle={buttonStyle}  >
                     <Link to='./graduation' className='btnn'>
                         <h2> Graduation </h2>
@@ -46,7 +49,7 @@ function DigitalProjs() {
                         
                 </Button>
             </div>
-            <div className='c2-2'>
+            <div className='d2-2'>
                 <Button buttonSize={buttonSize} buttonStyle={buttonStyle}  >
                     <Link to='./in-conversation' className='btnn'>
                         <h2>In Conversation w ___</h2>
@@ -54,7 +57,7 @@ function DigitalProjs() {
                         
                 </Button>
             </div>
-            <div className='c2-3'>
+            <div className='d2-3'>
                 <Button buttonSize={buttonSize} buttonStyle={buttonStyle}  >
                     <Link to='./kt' className='btnn'>
                         <h2>kt</h2>
@@ -64,15 +67,15 @@ function DigitalProjs() {
             </div>
         </div>
             <div className='row'>
-                <div className='c3-1'>
+                <div className='d3-1'>
                     <Button buttonSize={buttonSize} buttonStyle={buttonStyle}  >
-                        <Link to='./night' className='btnn'>
-                            <h2>Night</h2>
+                        <Link to='./friends' className='btnn'>
+                            <h2>Friends</h2>
                         </Link>
                             
                     </Button>
                 </div>
-                <div className='c3-2'>
+                <div className='d3-2'>
                     <Button buttonSize={buttonSize} buttonStyle={buttonStyle}  >
                         <Link to='./scuba' className='btnn'>
                             <h2>Scuba Diving</h2>
@@ -80,10 +83,10 @@ function DigitalProjs() {
                             
                     </Button>
                 </div>
-                <div className='c3-3'>
+                <div className='d3-3'>
                     <Button buttonSize={buttonSize} buttonStyle={buttonStyle}  >
-                        <Link to='./yosemite' className='btnn'>
-                            <h2>Yosemite Valley Theme Park</h2>
+                        <Link to='./night' className='btnn'>
+                            <h2>Night</h2>
                         </Link>
                             
                     </Button>

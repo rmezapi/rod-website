@@ -5,25 +5,29 @@
     min-width: 100%;
 }    
 
-
+/* road */
 .c1-1{
-    background-image: image-set('https://res.cloudinary.com/dxewrioco/image/upload/v1717800094/rod-website-images/digital/climbing/ronp6q4yzuvxktodvoqi.png');
+    background-image: image-set('https://res.cloudinary.com/dxewrioco/image/upload/v1718136024/road_z1b27k.png');
     min-width: 33.3%;
     min-height: 300px;
     align-items: flex-start;
     background-color: aliceblue;
     text-align: center;
 }
+
+/* bouldering */
 .c1-2{
-    background-image: image-set('../../public/images/film_sample.png');
+    background-image: image-set('https://res.cloudinary.com/dxewrioco/image/upload/v1718136017/bouldering_wviwie.png');
     min-width: 33.4%;
     min-height: 300px;
     align-items: center;
     background-color: honeydew;
     text-align: center;
 }
+
+/* mtb */
 .c1-3{
-    background-image: image-set('../../public/images/print_sample.png');
+    background-image: image-set('https://res.cloudinary.com/dxewrioco/image/upload/v1718136023/mtb_awoltf.png');
     min-width: 33.3%;
     min-height: 300px;
     align-items: flex-end;
@@ -31,24 +35,29 @@
     text-align: center;
 }
 
+/* biking adventures */
 .c2-1{
-    background-image: image-set('../../public/images/print_sample.png');
+    background-image: image-set('https://res.cloudinary.com/dxewrioco/image/upload/v1718136019/film-biking_hlbzpe.png');
     min-width: 33.3%;
     min-height: 300px;
     align-items: flex-start;
     background-color: aliceblue;
     text-align: center;
 }
+
+/* st simons */
 .c2-2{
-    background-image: image-set('../../public/images/tents.png');
+    background-image: image-set('https://res.cloudinary.com/dxewrioco/image/upload/v1718136025/stsimon_yaqo0d.png');
     min-width: 33.4%;
     min-height: 300px;
     align-items: center;
     background-color: honeydew;
     text-align: center;
 }
+
+/* friends */
 .c2-3{
-    background-image: image-set('../../public/images/film_sample.png');
+    background-image: image-set('https://res.cloudinary.com/dxewrioco/image/upload/v1718138266/film-friends_w4pger.png');
     min-width: 33.3%;
     min-height: 300px;
     align-items: flex-end;
@@ -81,13 +90,13 @@
     text-align: center;
 } */
 
-.btnn{
+.btnnn{
     color: #242424;
     padding-top: 100px;
     text-decoration: none;
 }
 
-.btnn:hover{
+.btnnn:hover{
     border-width: 2px;
     text-decoration: underline  ;
 }

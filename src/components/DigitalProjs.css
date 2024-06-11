@@ -5,25 +5,29 @@
     min-width: 100%;
 }    
 
-
-.c1-1{
-    background-image: image-set('../../public/images/tents.png');
+/* climbing */
+.d1-1{
+    background-image: image-set('https://res.cloudinary.com/dxewrioco/image/upload/v1718136018/climbing_ceujsw.png');
     min-width: 33.3%;
     min-height: 300px;
     align-items: flex-start;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     text-align: center;
 }
-.c1-2{
-    background-image: image-set('../../public/images/film_sample.png');
+
+/* biking adventures */
+.d1-2{
+    background-image: image-set('https://res.cloudinary.com/dxewrioco/image/upload/v1718136017/binking_adv_wvlov1.png');
     min-width: 33.4%;
     min-height: 300px;
     align-items: center;
-    background-color: honeydew;
+    /* background-color: honeydew; */
     text-align: center;
 }
-.c1-3{
-    background-image: image-set('../../public/images/print_sample.png');
+
+/* yosemite */
+.d1-3{
+    background-image: image-set('https://res.cloudinary.com/dxewrioco/image/upload/v1718136025/yvtp_kdfbrj.png');
     min-width: 33.3%;
     min-height: 300px;
     align-items: flex-end;
@@ -31,24 +35,29 @@
     text-align: center;
 }
 
-.c2-1{
-    background-image: image-set('../../public/images/print_sample.png');
+/* grad */
+.d2-1{
+    background-image: image-set('https://res.cloudinary.com/dxewrioco/image/upload/v1718136020/grad_c9ra1i.png');
     min-width: 33.3%;
     min-height: 300px;
     align-items: flex-start;
     background-color: aliceblue;
     text-align: center;
 }
-.c2-2{
-    background-image: image-set('../../public/images/tents.png');
+
+/* grad */
+.d2-2{
+    background-image: image-set('https://res.cloudinary.com/dxewrioco/image/upload/v1718136020/icwr_u9vnny.png');
     min-width: 33.4%;
     min-height: 300px;
     align-items: center;
     background-color: honeydew;
     text-align: center;
 }
-.c2-3{
-    background-image: image-set('../../public/images/film_sample.png');
+
+/* kt */
+.d2-3{
+    background-image: image-set('https://res.cloudinary.com/dxewrioco/image/upload/v1718136021/kt_j9nz7z.png');
     min-width: 33.3%;
     min-height: 300px;
     align-items: flex-end;
@@ -56,24 +65,30 @@
     text-align: center;
 }
 
-.c3-1{
-    background-image: image-set('../../public/images/print_sample.png');
+/* friends */
+.d3-1{
+    background-image: image-set('https://res.cloudinary.com/dxewrioco/image/upload/v1718136019/digital_friends_vsuw35.png');
     min-width: 33.3%;
     min-height: 300px;
     align-items: flex-start;
     background-color: aliceblue;
     text-align: center;
+
 }
-.c3-2{
-    background-image: image-set('../../public/images/tents.png');
+
+/* scuba */
+.d3-2{
+    background-image: image-set('https://res.cloudinary.com/dxewrioco/image/upload/v1718136024/scuba_zylfdk.png');
     min-width: 33.4%;
     min-height: 300px;
     align-items: center;
     background-color: honeydew;
     text-align: center;
 }
-.c3-3{
-    background-image: image-set('../../public/images/film_sample.png');
+
+/* night */
+.d3-3{
+    background-image: image-set('https://res.cloudinary.com/dxewrioco/image/upload/v1718136023/night_rftgi3.png');
     min-width: 33.3%;
     min-height: 300px;
     align-items: flex-end;
@@ -85,11 +100,15 @@
     color: #242424;
     padding-top: 100px;
     text-decoration: none;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    /* color: rgba(0, 0, 0, 0.75); */
 }
 
 .btnn:hover{
     border-width: 2px;
     text-decoration: underline  ;
+    color: #242424;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 
@@ -102,21 +121,21 @@
     }    
     
     
-    .c1-1{
+    .d1-1{
         min-width: 100%;
         min-height: 300px;
         align-items: flex-start;
         background-color: aliceblue;
         text-align: center;
     }
-    .c1-2{
+    .d1-2{
         min-width: 100%;
         min-height: 300px;
         align-items: center;
         background-color: honeydew;
         text-align: center;
     }
-    .c1-3{
+    .d1-3{
         min-width: 100%;
         min-height: 300px;
         align-items: flex-end;
@@ -124,42 +143,42 @@
         text-align: center;
     }
     
-    .c2-1{
+    .d2-1{
         min-width: 100%;
         min-height: 300px;
         align-items: flex-start;
         background-color: aliceblue;
         text-align: center;
     }
-    .c2-2{
+    .d2-2{
         min-width: 100%;
         min-height: 300px;
         align-items: center;
         background-color: honeydew;
         text-align: center;
     }
-    .c2-3{
+    .d2-3{
         min-width: 100%;
         min-height: 300px;
         align-items: flex-end;
         background-color: aquamarine;
         text-align: center;
     }
-    .c3-1{
+    .d3-1{
         min-width: 100%;
         min-height: 300px;
         align-items: flex-start;
         background-color: aliceblue;
         text-align: center;
     }
-    .c3-2{
+    .d3-2{
         min-width: 100%;
         min-height: 300px;
         align-items: center;
         background-color: honeydew;
         text-align: center;
     }
-    .c3-3{
+    .d3-3{
         min-width: 100%;
         min-height: 300px;
         align-items: flex-end;
