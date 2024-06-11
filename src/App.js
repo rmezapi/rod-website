@@ -7,7 +7,7 @@ import Cs from './components/pages/Cs'
 import Arts from './components/pages/Arts';
 import Digital from './components/pages/Digital';
 import Film from './components/pages/Film';
-import Printmaking from './components/pages/Printmaking';
+// import Printmaking from './components/pages/Printmaking';
 import Contact from './components/pages/Contact';
 import Climbing from './components/pages/DigitalClimbing';
 import BikingAdv from './components/pages/BikingAdv';
