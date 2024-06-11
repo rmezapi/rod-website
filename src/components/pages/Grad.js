@@ -19,7 +19,16 @@ function Grad() {
     const handleMoveNext = () => setIndex(nextIndex);
 
   return (
-    <div>
+    <>
+    <div className='text-container'>
+      <h1> Grad Photos </h1>
+      <h3> 2022-2024 </h3>
+      <p>
+        These are some of my favorite photos I have taken during the various graudation photoshoots I have been a part of.
+      </p>
+      
+    </div>
+    <div className='gallery'>
         <Gallery
         images={images}
         onClick={handleClick}
@@ -41,6 +50,7 @@ function Grad() {
         />
       )}
     </div>
+    </>
   )
 }
 

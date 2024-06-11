@@ -24,7 +24,7 @@ function FilmBiking() {
       <h1> Biking adventures! </h1>
       <h3> Always </h3>
       <p>
-        These collection consists of images I take during the many misc. biking adventures I go on with my friends and family.
+        This collection consists of images I take during the many misc. biking adventures I go on with my friends and family.
       </p>
       
     </div>
