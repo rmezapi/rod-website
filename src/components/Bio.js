@@ -13,19 +13,11 @@ function Bio() {
           <div className='about-me'>
             <h1> about me! </h1>
           </div>
-            
             <p>
-                I am passionate about computers and using them to create programs that positively improve society and its use of technology. 
-
-                Therefore I decided to major in Computer Science and recently graduated from the University of North Carolina at Chapel Hill. I also graduated with minors in Statistics and Analytics and Studio Art (Photography).
-
-                I consider myself an excellence-oriented, methodical, and ingenious person.
-
-                I am strongly interested in Software Engineering, Machine Learning, Computer Vision, Natural Language Processing, Photography, Art, and Sport.
-
-                I am particularly attracted to companies using technology to improve the world of sports, fitness, and art.
-
-                Some of my core values include respect, integrity, and gratitude.
+              I am passionate believer that the interaction between people and technology, through ethical and intentional construction and usage, can have a positive impact on society.  Specifically, I am passionate about computers and using them to create programs that can be used as tools to help improve people’s live and our world. I recently received my degree from the University of North Carolina at Chapel Hill, where I was able to explore my aspirations through my major in Computer Science. I also graduated with a minor in Statistics and Analytics and a minor in Studio Art with a concentration in Photography. 
+            </p>
+            <p>
+              I consider myself an excellence-oriented, methodical, curious, and innovative person, and some of my core values include respect, integrity, and gratitude. I am greatly interested in machine learning, computer vision, software engineering, photography, art, and sports. I am especially attracted to companies using technology with the aim of helping people, our society, and our planet. 
             </p>
         </div>
           <img className='profile-photo' src={photo} />

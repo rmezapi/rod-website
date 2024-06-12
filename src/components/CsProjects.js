@@ -50,9 +50,7 @@ function CsProjects() {
                     <img className='image' src="https://res.cloudinary.com/dxewrioco/image/upload/v1718141803/stomata_zgkfx4.png" />
                 </div>
                 <p className='description'>
-                    (IN PROGRESS) This object detection model aims to learn what stomata cells look like in an image and identify whether the cells are open or closed.
-                    Stomata cells are known as the guard cells of a plant, seeing as they control the gas exchange key to the plants health. The stomata cells open when the plant 
-                    needs carbon dioxide intake, release of oxygen, and water loss.  
+                    (IN PROGRESS) Stomata cells are known as the guard cells of a plant because they control the gas exchange key to the plants health. The stomata cells open when the plant needs carbon dioxide intake, release of oxygen, and water loss. This object detection model aims to learn what stomata cells look like in an image and identify whether the cells are open or closed.
                 </p>
                 <div className='btn-proj'>
                     <Button children='Coming soon!' buttonStyle="btn--outline" onClick={() => window.open(url, '_blank')} />
@@ -68,9 +66,7 @@ function CsProjects() {
                     <img className='image' src='https://res.cloudinary.com/dxewrioco/image/upload/v1718141300/website_vibtjc.png' />
                 </div>
                 <p className='description'>
-                    This website was built from the ground up using React for Javascript and HTML. I created this website to showcase the different projects I have worked on 
-                    (or currently am working on), whether they are computer science projects or arts projects. 
-                    I hope you enjoy looking through it as much as I enjoyed making it!
+                    I built this website from the ground up coding it using React for Javascript and HTML. I created it to showcase the different projects I have worked on or are currently working on. Whether they are computer science projects or arts projects I wanted to showcase my work on a platform I created. I hope you enjoy looking through it as much as I enjoyed making it!
                 </p>
                 <div className='btn-proj'>
                     <Button children={btn} buttonStyle="btn--outline" onClick={() => window.open(url+'/dementia_vit', '_blank')} />
