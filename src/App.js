@@ -54,6 +54,7 @@ function App() {
           <Route path='/arts/film/road-cycling' exact Component={FilmRoad} />
           <Route path='/arts/film/mtb' exact Component={FilmMtb} />
           <Route path='/arts/film/st-simon' exact Component={SaintSimon} />
+          
 
 
           {/* <Route path='/arts/printmaking' exact Component={Printmaking} /> */}
