@@ -21,8 +21,8 @@ function FilmFriends() {
   return (
     <>
     <div className='text-container'>
-      <h1> Friends! </h1>
-      <h3> Always </h3>
+      <h1> friends! </h1>
+      <h3> always </h3>
       {/* <p>
         Text here?
       </p> */}

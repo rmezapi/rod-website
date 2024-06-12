@@ -11,7 +11,7 @@ const github = 'https://github.com/rmezapi'
 function Contact() {
   return (
     <div className='all'>
-        <h2 className='contact'> Contact Me </h2>
+        <h2 className='contact'> contact me </h2>
         <div className='container'>
             <div className='info'>
                 <Button className='btn2' buttonStyle='btn--outline'  onClick={() => window.open(mailto, '_blank')}>

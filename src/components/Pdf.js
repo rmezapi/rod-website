@@ -22,11 +22,11 @@ const handleClick = () => {
 }
 
 function Pdf() {
-    const download = "Download as PDF"
+    const download = "download as pdf"
     return (
         <div>
             <div className='text'>
-                <h1> Resume </h1>
+                <h1> resume </h1>
                 <Button className='btn' children={download} onClick={handleClick} buttonStyle='btn--outline'/>
             </div>
             

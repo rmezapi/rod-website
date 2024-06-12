@@ -12,7 +12,7 @@ function CsProjects() {
   return (
     <div  className="cs-container">
         <div className='text-container'>
-            <h1> Background </h1>
+            <h1> background </h1>
             <p>
             Attending the University of North Carolina at Chapel Hill not only gave me the ability to pursue my dream career, but showed me that there are a vast number of paths and opportunities one can take with a degree in Computer Science. Early on in my time at Carolina I discovered the world of Artificial Intelligence and Machine Learning, the subjects that sparked my passion in computer science. Before committing to one area of computer science, AI and ML, I explored designing databases for a few years with Dr. Andy Lang and Dr. Aaron Delgaty. I also took courses in Object Oriented Programming, Computer Organization, and Modern Web Programming. Further along in my Carolina journey I discovered attention based transformers and their potential to change the way we interact with technology, which showed me the continuous opportunities for computer science’s growth and evolution, and got me excited for the role I could play in it. Alongside my computer science degree I pursued a minor in Statistics that resulted from my passion for data manipulation, understanding, and modeling. During my time at UNC I learned to code in a variety of languages, including but not limited to C, Python, Java, MATLAB, R, and even SQL. I am passionate learning to code new languages and discovering ways of interacting with computers to create both art and functionality amidst that relationship. I see coding as an art and computers as my medium, and I am excited about cultivating my own coding style and creating programs never seen before.
             </p>
@@ -23,7 +23,7 @@ function CsProjects() {
         </div>
         <hr class="solidFull" />
         <div className='projects-container'> 
-            <h1> Projects </h1>
+            <h1> projects </h1>
             {/* dementia vit */}
             <div className='project'>
                 <div className='left'> 

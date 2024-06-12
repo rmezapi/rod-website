@@ -12,8 +12,8 @@ function AllArts() {
         <div className='small-container, digital'>
             <Button buttonSize={buttonSize} buttonStyle={buttonStyle} >
                 <Link to='./digital' className='butn' >
-                    <h2> Digital </h2>
-                    <h2> Photography </h2>
+                    <h2> digital </h2>
+                    <h2> photography </h2>
                 </Link>
             </Button>   
         </div>
@@ -21,8 +21,8 @@ function AllArts() {
         <div className='small-container, film'>
             <Button buttonSize={buttonSize} buttonStyle={buttonStyle} >
                 <Link to='./film' className='butn' >
-                    <h2> Film </h2>
-                    <h2> Photography </h2>
+                    <h2> film </h2>
+                    <h2> photography </h2>
                 </Link>
             </Button>
         </div>

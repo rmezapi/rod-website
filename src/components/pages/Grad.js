@@ -21,7 +21,7 @@ function Grad() {
   return (
     <>
     <div className='text-container'>
-      <h1> Grad Photos </h1>
+      <h1> grad photos </h1>
       <h3> 2022-2024 </h3>
       <p>
         These are some of my favorite photos I have taken during the various graudation photoshoots I have been a part of.

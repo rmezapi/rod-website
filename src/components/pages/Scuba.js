@@ -21,7 +21,7 @@ function Scuba() {
   return (
     <>
     <div className='text-container'>
-      <h1> A Scuba Diving Trip in the Florida Keys</h1>
+      <h1> a scuba diving trip in the florida keys</h1>
       <h3> 2023 </h3>
       <p>
         These are some of the film images I took on a scuba diving trip with my family in Isla Morada, FL. The underwater images were taken with a GoPro camera.

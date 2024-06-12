@@ -21,7 +21,7 @@ function InConversation() {
   return (
     <>
     <div className='text-container'>
-      <h1> The Town: In Conversation with Daniel Shea</h1>
+      <h1> the town: in conversation with daniel shea</h1>
       <p>
       The Town is a collection of images taken in the Town of Chapel Hill, a small town I have come to know and love. Inspired by the work and ideas of Daniel Shea, I explore everything from construction to animals in only 10 photographs in both black and white and color images. The idea for this project came when reading one of Daniel's interviews on Frieze on one of his collections about New York City. In it, there is a lot of black and white, as well as hints of pastel colors in images, and sometimes even repetitively stamping a subject onto the image. Daniel is clearly in love with the city, like a portrait photographer with its muse.
       </p>

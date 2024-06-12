@@ -13,7 +13,7 @@ function FilmProjs() {
             <div className='c1-1'>
                 <Button buttonSize={buttonSize} buttonStyle={buttonStyle}  >
                     <Link to='./road-cycling' className='btnnn'>
-                        <h2>Road Cycling</h2>
+                        <h2>road cycling</h2>
                     </Link>
                         
                 </Button>
@@ -21,7 +21,7 @@ function FilmProjs() {
             <div className='c1-2'>
                 <Button buttonSize={buttonSize} buttonStyle={buttonStyle}  >
                     <Link to='./bouldering' className='btnnn'>
-                        <h2>Bouldering</h2>
+                        <h2>bouldering</h2>
                     </Link>
                         
                 </Button>
@@ -29,7 +29,7 @@ function FilmProjs() {
             <div className='c1-3'>
                 <Button buttonSize={buttonSize} buttonStyle={buttonStyle}  >
                     <Link to='./mtb' className='btnnn'>
-                        <h2>Mountain Biking</h2>
+                        <h2>mountain biking</h2>
                     </Link>
                         
                 </Button>
@@ -39,7 +39,7 @@ function FilmProjs() {
             <div className='c2-1'>
                 <Button buttonSize={buttonSize} buttonStyle={buttonStyle}  >
                     <Link to='./biking' className='btnnn'>
-                        <h2>Biking Adventures</h2>
+                        <h2>biking adventures</h2>
                     </Link>
                         
                 </Button>
@@ -47,7 +47,7 @@ function FilmProjs() {
             <div className='c2-2'>
                 <Button buttonSize={buttonSize} buttonStyle={buttonStyle}  >
                     <Link to='./st-simon' className='btnnn'>
-                        <h2>Saint Simon's Island Trip</h2>
+                        <h2>st. simon's island trip</h2>
                     </Link>
                         
                 </Button>
@@ -55,7 +55,7 @@ function FilmProjs() {
             <div className='c2-3'>
                 <Button buttonSize={buttonSize} buttonStyle={buttonStyle}  >
                     <Link to='./friends' className='btnnn'>
-                        <h2>Friends</h2>
+                        <h2>friends</h2>
                     </Link>
                         
                 </Button>

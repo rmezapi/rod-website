@@ -11,7 +11,7 @@ function Bio() {
     <div className='bio-container'>
         <div className='text-container'>
           <div className='about-me'>
-            <h1> About me! </h1>
+            <h1> about me! </h1>
           </div>
             
             <p>

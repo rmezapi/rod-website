@@ -21,8 +21,8 @@ function DigitalClimbing() {
   return (
     <>
     <div className='text-container'>
-      <h1> Climbing adventures! </h1>
-      <h3> Always </h3>
+      <h1> climbing adventures! </h1>
+      <h3> always </h3>
       <p>
         This collection consists of images I take during the many misc. climbing adventures I go on with my friends and family.
       </p>

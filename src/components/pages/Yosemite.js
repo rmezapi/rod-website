@@ -21,7 +21,7 @@ function Yosemite() {
   return (
     <>
     <div className='text-container'>
-      <h1> Yosemite Valley Theme Park </h1>
+      <h1> yosemite valley theme park </h1>
       <h3> 2022 </h3>
       <p>
         This is a collection of images I took when visiting Yosemite in the summer of 2022. Not only did I witness some of th emost beautiful sights I will ever see,
