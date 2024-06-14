@@ -14,10 +14,11 @@ function Bio() {
             <h1> about me! </h1>
           </div>
             <p>
-              I am passionate believer that the interaction between people and technology, through ethical and intentional construction and usage, can have a positive impact on society.  Specifically, I am passionate about computers and using them to create programs that can be used as tools to help improve people’s live and our world. I recently received my degree from the University of North Carolina at Chapel Hill, where I was able to explore my aspirations through my major in Computer Science. I also graduated with a minor in Statistics and Analytics and a minor in Studio Art with a concentration in Photography. 
+              I am a passionate believer in the positive impact that ethical and intentional interaction between people and technology can have on society. Specifically, I am passionate about computers and using them to create programs that can be used as tools to help improve people’s lives and our world. I recently graduated from the University of North Carolina at Chapel Hill with a degree in Computer Science, and I also completed minors in Statistics and Analytics, as well as Studio Art with a concentration in Photography.           
             </p>
+            <p className='space'> -- </p>
             <p>
-              I consider myself an excellence-oriented, methodical, curious, and innovative person, and some of my core values include respect, integrity, and gratitude. I am greatly interested in machine learning, computer vision, software engineering, photography, art, and sports. I am especially attracted to companies using technology with the aim of helping people, our society, and our planet. 
+              I am an excellence-oriented, methodical, curious, and innovative individual who values respect, integrity, and gratitude. My interests include machine learning, computer vision, software engineering, photography, art, and sports. I am particularly drawn to companies that leverage technology to benefit people, society, and the planet.
             </p>
         </div>
           <img className='profile-photo' src={photo} />

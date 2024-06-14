@@ -12,9 +12,17 @@ function CsProjects() {
   return (
     <div  className="cs-container">
         <div className='text-container'>
-            <h1> background </h1>
+            <h1 className='main_title'> background </h1>
             <p>
-            Attending the University of North Carolina at Chapel Hill not only gave me the ability to pursue my dream career, but showed me that there are a vast number of paths and opportunities one can take with a degree in Computer Science. Early on in my time at Carolina I discovered the world of Artificial Intelligence and Machine Learning, the subjects that sparked my passion in computer science. Before committing to one area of computer science, AI and ML, I explored designing databases for a few years with Dr. Andy Lang and Dr. Aaron Delgaty. I also took courses in Object Oriented Programming, Computer Organization, and Modern Web Programming. Further along in my Carolina journey I discovered attention based transformers and their potential to change the way we interact with technology, which showed me the continuous opportunities for computer science’s growth and evolution, and got me excited for the role I could play in it. Alongside my computer science degree I pursued a minor in Statistics that resulted from my passion for data manipulation, understanding, and modeling. During my time at UNC I learned to code in a variety of languages, including but not limited to C, Python, Java, MATLAB, R, and even SQL. I am passionate learning to code new languages and discovering ways of interacting with computers to create both art and functionality amidst that relationship. I see coding as an art and computers as my medium, and I am excited about cultivating my own coding style and creating programs never seen before.
+                Attending the University of North Carolina at Chapel Hill not only allowed me to pursue my dream career but also exposed me to the diverse paths and opportunities available with a degree in Computer Science. Early in my time at Carolina, I discovered Artificial Intelligence (AI) and Machine Learning (ML), which ignited my passion for computer science. Before committing to AI and ML, I explored designing databases for a few years with Dr. Andy Lang and Dr. Aaron Delgaty. I also took courses in Object Oriented Programming, Computer Organization, and Modern Web Programming.
+            </p>
+            <p className='space'> -- </p>
+            <p>
+                As I progressed in my studies, I encountered attention-based transformers and their potential to revolutionize our interaction with technology. This discovery highlighted the continuous growth and evolution in computer science, inspiring me about the role I could play in its future. Alongside my major in Computer Science, I pursued a minor in Statistics, driven by my passion for data manipulation, understanding, and modeling.
+            </p>
+            <p className='space'> -- </p>
+            <p>
+                During my time at UNC I learned to code in a variety of languages, including but not limited to C, Python, Java, MATLAB, R, and SQL. I am passionate about learning new programming languages and discovering innovative ways to interact with computers to create both art and functionality. I view coding as an art form, with computers as my medium, and I am excited to further cultivate my own coding style and collaborate in groundbreaking projects.
             </p>
             <div className='btn'>
                 <Button children="Follow my GitHub!" buttonStyle="btn--outline" onClick={() => window.open(url, '_blank')} />
@@ -23,11 +31,14 @@ function CsProjects() {
         </div>
         <hr class="solidFull" />
         <div className='projects-container'> 
-            <h1> projects </h1>
+            <h1 className='main_title'> projects </h1>
+            <hr class="solid" />
+
+
             {/* dementia vit */}
             <div className='project'>
                 <div className='left'> 
-                    <h3> Dementia ViT </h3>
+                    <h3 className='title'> Dementia ViT </h3>
                     <img className='image' src="https://res.cloudinary.com/dxewrioco/image/upload/v1718140331/dementia_vit_yel9we.png" />
                 </div>
                 <p className='description'>
@@ -46,7 +57,7 @@ function CsProjects() {
             {/* stomata cells */}
             <div className='project'>
                 <div className='left'> 
-                    <h3> Stomata Cell DETR </h3>
+                    <h3 className='title'> Stomata Cell DETR </h3>
                     <img className='image' src="https://res.cloudinary.com/dxewrioco/image/upload/v1718141803/stomata_zgkfx4.png" />
                 </div>
                 <p className='description'>
@@ -62,12 +73,14 @@ function CsProjects() {
             {/* website */}
             <div className='project'>
                 <div className='left'> 
-                    <h3> Personal Website </h3>
+                    <h3 className='title'> Personal Website </h3>
                     <img className='image' src='https://res.cloudinary.com/dxewrioco/image/upload/v1718141300/website_vibtjc.png' />
                 </div>
-                <p className='description'>
-                    I built this website from the ground up coding it using React for Javascript and HTML. I created it to showcase the different projects I have worked on or are currently working on. Whether they are computer science projects or arts projects I wanted to showcase my work on a platform I created. I hope you enjoy looking through it as much as I enjoyed making it!
-                </p>
+                <div className='description'>
+                    <p>
+                        I built this website from the ground up coding it using React for Javascript and HTML. I created it to showcase the different projects I have worked on or are currently working on. Whether they are computer science projects or arts projects I wanted to showcase my work on a platform I created. I hope you enjoy looking through it as much as I enjoyed making it!
+                    </p>
+                </div>
                 <div className='btn-proj'>
                     <Button children={btn} buttonStyle="btn--outline" onClick={() => window.open(url+'/dementia_vit', '_blank')} />
                 </div>
@@ -78,7 +91,7 @@ function CsProjects() {
             {/* carolina data challenge */}
             <div className='project'>
                 <div className='left'> 
-                    <h3> Carolina Data Challenge </h3>
+                    <h3 className='title'> Carolina Data Challenge </h3>
                     <img className='image' src='https://res.cloudinary.com/dxewrioco/image/upload/v1718141426/map_tep72q.png' />
                 </div>
                 <p className='description'>
