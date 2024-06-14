@@ -75,6 +75,7 @@ hr.solidFull{
     width: 75%;
     margin-bottom: 1rem;
     margin-left: 3rem;
+    text-align: justify;
 }
 
 .btn-proj {

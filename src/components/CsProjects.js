@@ -78,7 +78,7 @@ function CsProjects() {
                 </div>
                 <div className='description'>
                     <p>
-                        I built this website from the ground up coding it using React for Javascript and HTML. I created it to showcase the different projects I have worked on or are currently working on. Whether they are computer science projects or arts projects I wanted to showcase my work on a platform I created. I hope you enjoy looking through it as much as I enjoyed making it!
+                        I built this website from the ground up using React for Javascript and HTML. I created it to share the different projects I have worked on and am currently working on. Whether they are computer science or arts projects, I want to showcase my work on a platform I created. I hope you enjoy looking through it as much as I enjoyed making it!
                     </p>
                 </div>
                 <div className='btn-proj'>
