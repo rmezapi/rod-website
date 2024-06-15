@@ -21,7 +21,7 @@ function BikingAdv() {
   return (
     <>
     <div className='text-container'>
-      <h1> biking adventures! </h1>
+      <h1> biking adventures </h1>
       <h3> always </h3>
       <p>
         This collection consists of images I take during the many misc. biking adventures I go on with my friends and family.

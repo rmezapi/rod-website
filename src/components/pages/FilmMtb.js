@@ -21,7 +21,7 @@ function FilmMtb() {
   return (
     <>
     <div className='text-container'>
-      <h1> come wih me! - mountain biking</h1>
+      <h1> come with me! - mountain biking</h1>
       <h3> 2023 </h3>
       <p>
       Nature is, has been, and will always be the main stage for sport. Its magnificent features are like no other, providing the ultimate challenge for athletes to tackle. Its natural complexities continue to push engineers to design the right tools for athletes to perform in the most breathtaking of sites. From mountains to sea, valleys to rivers, tundra to jungle, there is always a sport to be practiced, and a sight to behold. 
