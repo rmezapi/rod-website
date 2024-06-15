@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import NavBar from './components/NavBar';
+import Footer from "./components/Footer"
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/pages/Home'
 import Cs from './components/pages/Cs'
@@ -24,6 +25,7 @@ import FilmMtb from './components/pages/FilmMtb';
 import FilmRoad from './components/pages/FilmRoad';
 import SaintSimon from './components/pages/SaintSimon';
 import FilmFriends from './components/pages/FilmFriends';
+
 
 
 function App() {
@@ -62,6 +64,7 @@ function App() {
           <Route path='/contact' exact Component={Contact} />
 
         </Routes>
+        <Footer/>
       </Router>
       
     </>

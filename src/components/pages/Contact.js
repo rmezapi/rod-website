@@ -20,12 +20,12 @@ function Contact() {
             </div>
             <div className='info'>
                 <Button className='btn2' buttonStyle='btn--outline'  onClick={() => window.open(linkedin, '_blank')}>
-                    <i class="fa-brands fa-linkedin fa-xl icon" />   
+                    <i class="fa-brands fa-linkedin fa-sm icon" />   
                 </Button>
             </div>
             <div className='info'>
                 <Button className='btn2' buttonStyle='btn--outline' onClick={() => window.open(github, '_blank')}>
-                    <i class="fa-brands fa-github fa-xl icon" />   
+                    <i class="fa-brands fa-github fa-s icon" />   
                 </Button>
             </div>
         </div>
