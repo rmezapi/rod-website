@@ -3,8 +3,8 @@ import React from 'react'
 import { Button } from './Button';
 import './Pdf.css'
 
-const mle_cv = './files/meza_rodrigo_6_04_24_mle.pdf';
-const ds_cv = './files/rodrigo_meza_pineda_resume .pdf'
+const mle_cv = 'https://drive.google.com/file/d/1hi3jnwJLSvFQ1nEjJhNoVyn5TdCStK7v/view?usp=sharing';
+const ds_cv = 'https://drive.google.com/file/d/1ap-VMVdM0L4NEAGYDk2pmx9kSGcW8t4s/view?usp=sharing'
 
 // const pageNumber = 1;
 const targetPath_mle = 'meza_rodrigo_mle_cv'
@@ -34,8 +34,8 @@ const handleClickMLE = () => {
 }
 
 function Pdf() {
-    const download_mle = "download machine learning resume"
-    const download_ds = "download data science resume"
+    const download_mle = "machine learning resume"
+    const download_ds = "data science resume"
     return (
         <div>
             <div className='text'>
