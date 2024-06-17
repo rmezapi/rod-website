@@ -4,7 +4,7 @@ import { Button } from './Button';
 import './Pdf.css'
 
 const mle_cv = 'https://drive.google.com/file/d/1hi3jnwJLSvFQ1nEjJhNoVyn5TdCStK7v/view?usp=sharing';
-const ds_cv = 'https://drive.google.com/file/d/1ap-VMVdM0L4NEAGYDk2pmx9kSGcW8t4s/view?usp=sharing'
+const ds_cv = 'https://drive.google.com/file/d/1EgbeND5Xu91DANhfNCRReQGHA5y_TpaW/view?usp=sharing'
 
 // const pageNumber = 1;
 const targetPath_mle = 'meza_rodrigo_mle_cv'
