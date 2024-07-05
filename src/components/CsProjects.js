@@ -54,6 +54,29 @@ function CsProjects() {
             </div>
             <hr class="solid" />
 
+            {/* dementia detection xlnet */}
+            <div className='project'>
+                <div className='left'> 
+                    <h3 className='title'> Cookie Theft Dementia Detection Test </h3>
+                    <img className='image' src="https://res.cloudinary.com/dxewrioco/image/upload/v1720213195/cookie_zf9mhc.png" />
+                </div>
+                <p className='description'>
+                    This is a sequence classification model that uses XLNet as a base and is fine-tuned on a dataset containing 
+                    responses to the cookie theft test. The model trains on the Dementia Bank dataset found on HuggingFace at
+                    <a href="https://huggingface.co/datasets/Ak000/Dementia_Bank_Train"> Dementia Bank</a>. The model achieves 
+                    a maximum accuracy of 82% on the testing dataset evaluation. 
+                    The interface for this model was built using Remix and Vite and was deployed using Netlify. The web app also uses a 
+                    speech-to-text model from Deepgram AI to transcribe the audio responses to text for the model to then classify.
+                </p>
+            
+                <div className='btn-proj'>
+                    <Button children={btn} buttonStyle="btn--outline" onClick={() => window.open(url+'/dementiabank-prediction-webapp', '_blank')} />
+                    <Button children='HuggingFace' buttonStyle='btn--outline' onClick={() => window.open('https://huggingface.co/rmezapi/dementia-bank-seq-classif-xlnet', '_blank')} />
+                    <Button children='WebApp' buttonStyle='btn--outline' onClick={() => window.open('https://dementiabank-prediction-webapp.netlify.app/', '_blank')} />
+                </div>
+            </div>
+            <hr class="solid" />
+
             {/* stomata cells */}
             <div className='project'>
                 <div className='left'> 
